@@ -9,7 +9,7 @@ class FileReader:
         sequence = ""
 
         for line in file:
-            #line = line[:-1]
+            line = line[:-1]
             sequence += line
 
         file.close()
