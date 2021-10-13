@@ -66,8 +66,6 @@ class FrequencyCalculator:
                      
                 dicodon = protein1 + protein2
 
-                print(dicodon)
-
 
                 dicodon_frequences[self.protein_list.index(protein1)][self.protein_list.index(protein2)] = self.calculate_dicodon_frequency(dicodon, seq_list)
         
